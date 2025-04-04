@@ -1,0 +1,52 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: inter, sans-serif;
+    --secondary-font: macondo, cursive;
+    --primary-color: #3a2620;
+    --secondary-color: #aa9581;
+    --highlight-color: #416a8e;
+    --highlight-color-light: #7a9fc2;
+}
+
+/* Global Styles */
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+#header .lead {
+   font-family: var(--secondary-font);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+#navbar .logo {
+    width: 30px;
+}
+/* 
+.container, .row {
+    border: 2px solid black
+}
+
+.col-12 {
+   border: 2px solid white;
+   background-color: lightgrey;
+} */
