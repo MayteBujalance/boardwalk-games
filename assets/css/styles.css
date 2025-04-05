@@ -141,6 +141,15 @@ h2 {
     background-color: var(--highlight-color);
     color: white; 
 }
+
+tbody tr > td:first-child {
+    font-weight: bold;
+}
+
+.text-center-left {
+    text-align: left; /* Align text to the left */
+    margin: 0 auto; /* Center the container horizontally */
+}
 /* 
 .container, .row {
     border: 2px solid black
