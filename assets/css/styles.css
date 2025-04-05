@@ -104,6 +104,21 @@ h2 {
 #contact .table-dark *{
     background-color: transparent;
 }
+
+/* Button */
+.custon-button-filled {
+
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custon-button-filled:hover {
+
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
 /* 
 .container, .row {
     border: 2px solid black
