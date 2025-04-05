@@ -38,6 +38,15 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+}
+#navbar .logo {
+    width: 30px;
+}
+
 /* Header */
 #header .lead {
    font-family: var(--secondary-font);
@@ -60,13 +69,40 @@ h2 {
     border: none
 }
 
-
-/* Navbar */
-#navbar {
+/* Footer / Contact */
+#contact {
     background-color: var(--primary-color);
+    color: white;
+    padding: 3rem;
 }
-#navbar .logo {
-    width: 30px;
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color{
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--highlight-color-light);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}   
+
+#contact .social-links i:hover {
+    color: var(--secondary-color);
+    
+}
+
+#contact .table-dark *{
+    background-color: transparent;
 }
 /* 
 .container, .row {
